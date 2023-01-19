@@ -23,8 +23,8 @@ export default function Email() {
           <Container style={container}>
             <Img
                 src={`${baseUrl}/static/icon-512x512.png`}
-                width="90"
-                height="50"
+                width="120"
+                height="70"
                 alt="Ouch and Wow"
                 style={logo}
             />
@@ -61,13 +61,12 @@ export default function Email() {
               <Link
                   href="https://ouchandwow.com"
                   target="_blank"
-                  style={{ ...link, color: '#898989' }}
-              >
+                  style={{ ...link, color: '#898989' }}>
                 ouchandwow.com
               </Link>
-              , the all-in-one-workspace
+              , stay warm and stylish on the slopes
               <br />
-              for your notes, tasks, wikis, and databases.
+              with Ouch And Wow's fluffy fun animal protectors.
             </Text>
           </Container>
         </Section>
