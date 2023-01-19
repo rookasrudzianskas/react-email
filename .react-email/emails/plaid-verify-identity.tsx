@@ -28,18 +28,23 @@ export default function Email() {
                 alt="Ouch and Wow"
                 style={logo}
             />
-            <Text style={paragraph}>Hi Rokas,</Text>
+            <Text style={paragraph}>Hi,</Text>
             <Text style={paragraph}>
-              Welcome to our winter store! We're so excited to have you as a customer. At our store, you'll find a
-              wide variety of fluffy fun animal protectors for snowboarding and skiing.
+              Brrrr, it's getting chilly out there! But don't worry, we've got you covered (literally) at Ouch And Wow!
             </Text>
             <Text style={paragraph}>
-              Our protectors are designed to keep you warm and protected on the slopes, so you can enjoy your winter sports without fear of falling.
-              Whether you're a seasoned pro or just starting out, we've got you covered.
+              Welcome to our winter wonderland of fluffy fun animal protectors for snowboarding and skiing.
+              We're thrilled to have you as a customer and can't wait for you to discover all the cozy options we have
+              in store for you.
             </Text>
             <Text style={paragraph}>
-              Thank you for choosing our store
-              and we look forward to serving you. Happy shopping!
+              Our protectors are designed to keep you warm and protected on the slopes, so you can shred the mountain
+              without a care in the world. Whether you're a seasoned pro or just starting out, we've got the perfect
+              fluffy companion to keep you safe and stylish on the slopes.
+            </Text>
+            <Text style={paragraph}>
+              Thank you for choosing our store and we look forward to serving you.
+              Happy shopping, and have an awesome winter season!
             </Text>
             <Section style={btnContainer}>
               <Button pX={12} pY={12} style={button} href="https://ouchandwow.com">
@@ -52,13 +57,13 @@ export default function Email() {
               The Ouch And Wow team
             </Text>
             <Hr style={hr} />
-            <Text style={footer}>
+            <Text style={footerData}>
               <Link
-                  href="https://notion.so"
+                  href="https://ouchandwow.com"
                   target="_blank"
                   style={{ ...link, color: '#898989' }}
               >
-                Notion.so
+                ouchandwow.com
               </Link>
               , the all-in-one-workspace
               <br />
@@ -98,7 +103,7 @@ const btnContainer = {
 
 const button = {
   fontFamily,
-  backgroundColor: '#5F51E8',
+  backgroundColor: '#000000',
   borderRadius: '3px',
   color: '#fff',
   fontSize: '16px',
@@ -118,3 +123,20 @@ const footer = {
   fontSize: '12px',
 };
 
+const footerData = {
+  color: '#898989',
+  fontFamily:
+      "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+  fontSize: '12px',
+  lineHeight: '22px',
+  marginTop: '12px',
+  marginBottom: '24px',
+};
+
+const link = {
+  color: '#2754C5',
+  fontFamily:
+      "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+  fontSize: '14px',
+  textDecoration: 'underline',
+};
