@@ -20,7 +20,7 @@ npm run dev
 yarn dev
 ```
 
-Open [localhost:3001](http://localhost:3001) with your browser to see the result.
+Open [localhost:3001](http://localhost:3001) to get the result.
 
 ## License
 
